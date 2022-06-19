@@ -512,7 +512,7 @@ int main(int argc, char** argv)
   ros::NodeHandle nh("~");
   ros::Rate r(10);
 
-  spdlog::set_level(spdlog::level::debug);
+  spdlog::set_level(spdlog::level::info);
 
   g_scan_pub = nh.advertise<sensor_msgs::LaserScan>("/temp_scan", 1);
 
