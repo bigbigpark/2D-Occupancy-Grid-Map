@@ -1,0 +1,13 @@
+grid_map:
+  sensor_model_p_occ: 0.85  # 0.75
+  sensor_model_p_free: 0.15 # 0.45
+  sensor_model_p_prior: 0.5 # 0.5
+  robot_frame: "base_link"
+  map_frame: "map"
+  map_center_x: -5.0 # -5.0
+  map_center_y: -100.0 # -100.0
+  map_size_x: 200.0 # 200
+  map_size_y: 200.0 # 200
+  map_resolution: 0.5
+  map_publish_freq: 10
+  update_movement: 0.1

@@ -1,0 +1,7 @@
+<launch>
+  <node name="laser_grid_mapping" pkg="laser_grid_mapping" type="laser_grid_mapping" respawn="false" output="screen">
+    <rosparam command="load" file="$(find laser_grid_mapping)/config/config.yaml" />
+      <remap from="/scan" to="/keypoints/scan" /> 
+      <remap from="/grid_map" to="/keypoints/grid_map" /> 
+  </node>
+</launch>
