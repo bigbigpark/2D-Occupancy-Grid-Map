@@ -6,8 +6,8 @@ grid_map:
   map_frame: "map"
   map_center_x: -5.0 # -5.0
   map_center_y: -100.0 # -100.0
-  map_size_x: 200.0 # 200
-  map_size_y: 200.0 # 200
+  map_size_x: 400.0 # 200
+  map_size_y: 400.0 # 200
   map_resolution: 0.5
   map_publish_freq: 10
   update_movement: 0.1
